@@ -34,7 +34,7 @@ const App = () => {
   }
 
   return (
-    <div className=" container flex flex-col justify-evenly items-center min-h-screen w-full">
+    <div className=" container flex flex-col justify-evenly items-center min-h-screen w-full p-4">
       <div className=" flex w-full justify-center items-center">
         <input ref={odpNameRef} className=" w-full bg-gray-200 h-14 rounded-2xl pl-4" placeholder="Ustaw odpowiedź" type='text'/>
         <button onClick={addOdp} className=" bg-green-500 rounded-2xl w-20 h-14 ml-4">Wyślij</button>
